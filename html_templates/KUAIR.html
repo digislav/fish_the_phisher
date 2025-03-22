@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kean University Registration Center</title>
+  </head>
+  <!-- Use the text, link, and vlink attributes on <body> for basic color control. -->
+  <body bgcolor="#ffffff" text="#000000" link="#1a73e8" vlink="#1a73e8" alink="#1a73e8">
+
+    <!-- Top Bar (black background) -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="8" bgcolor="#000000">
+      <tr>
+        <td align="left" valign="middle">
+          <font color="#ffffff">knet-xnac.kean.edu</font>
+        </td>
+        <td align="center" valign="middle">
+          <font color="#ffffff">KUAir</font>
+        </td>
+        <td align="right" valign="middle">
+          <!-- “Cancel” link in white text -->
+          <font color="#ffffff"><a href="#" style="color: #ffffff; text-decoration: none;">Cancel</a></font>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Banner / Logo Row -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="10">
+      <tr>
+        <!-- Left: Kean logo -->
+        <td align="left" valign="middle" width="20%">
+          <img src="kean-logo-placeholder.svg" alt="Kean University Logo" width="100">
+        </td>
+        <!-- Right: “Slideshow” images (just placeholders) -->
+        <td align="right" valign="middle">
+          <img src="kean-building-placeholder.svg" alt="Kean Building" width="200">
+          <img src="kean-campus-placeholder.svg" alt="Kean Campus" width="200">
+        </td>
+      </tr>
+    </table>
+
+    <!-- Heading (“Captive Wi-Fi” inside that darker bar) -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="8" bgcolor="#444444">
+      <tr>
+        <td align="left">
+          <font color="#ffffff" size="+1">Captive Wi-Fi</font>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Main Content -->
+    <h1>Welcome to Kean University Registration Center</h1>
+    <p>Your device is currently <strong>not</strong> registered to the network.<br>
+       Please use the following to register your device and obtain network access.</p>
+
+    <hr width="90%">
+
+    <!-- “Network Login” and “Register as Guest” side by side -->
+    <table border="0" width="100%" cellspacing="0" cellpadding="10">
+      <tr>
+        <!-- Left Column: Network Login -->
+        <td width="50%" valign="top">
+          <font size="+1"><strong>Network Login</strong></font><br>
+          <font size="-1">If you have been issued credentials for this network, please login below.</font>
+          <form action="/login" method="post">
+            <p>
+              <label for="username"><font size="-1">User Name:</font></label><br>
+              <input type="text" id="username" name="username" size="30">
+            </p>
+            <p>
+              <label for="password"><font size="-1">Password:</font></label><br>
+              <input type="password" id="password" name="password" size="30">
+            </p>
+            <p><input type="submit" value="Login"></p>
+          </form>
+        </td>
+
+        <!-- Right Column: Register as Guest -->
+        <td width="50%" valign="top">
+          <font size="+1"><strong>Register as a Guest</strong></font><br>
+          <font size="-1">If you have not been issued credentials for this network, please register your device.</font>
+          <form action="/register" method="post">
+            <p><input type="submit" value="Register"></p>
+          </form>
+        </td>
+      </tr>
+    </table>
+
+    <hr width="90%">
+
+    <!-- Footer (light gray background) -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="8" bgcolor="#eeeeee">
+      <tr>
+        <td align="center" valign="middle">
+          <font size="-1">
+            1000 Morris Ave, Union, NJ 07083 | (908) 737-6000 | ©2018 Kean University<br>
+            <a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Kean Login Page</a>
+          </font>
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>

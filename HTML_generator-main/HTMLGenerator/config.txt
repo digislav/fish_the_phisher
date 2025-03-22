@@ -1,0 +1,14 @@
+background_color             :#FFFFFF
+company_title_text           :Kean University Registration Center
+company_title_color          :#003057
+container_background_color   :#FFFFFF
+container_title_text         :Sign in to Wi-Fi
+container_title_color        :#003057
+container_subtitle_text      :Use your account
+container_subtitle_color     :#003057
+submit_btn_background_color  :#003057
+submit_btn_text              :Connect to Wi-Fi
+submit_btn_text_color        :white
+forgot_credentials           :true
+forgot_credentials_text      :Forgot password?
+forgot_credentials_color     :003057
